@@ -6,9 +6,21 @@
     "vue"
   ],
   "name": "language-louk",
-  "repository": "https://github.com/louk-lang/louk-editor-atom.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louk-lang/louk-editor-atom.git"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/louk-lang/louk-editor-atom/issues"
+  },
+  "homepage": "https://github.com/louk-lang/louk-editor-atom#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
